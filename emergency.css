@@ -1,0 +1,162 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:url(images/dog.jpg) center/cover no-repeat
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #0b5ea8;
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0b5ea8;
+  font-size: 1.4rem;
+}
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:url(images/daniel.jpg)center/cover no-repeat
+}
+
+.header {
+    background:blue;
+    padding: 25px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Images */
+header img {
+  width: 250px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  header {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  header img {
+    width: 100%;
+  }
+#contact {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  justify-content: flex-start;
+}
+
+#contact h2 {
+  margin-bottom: 15px;
+  color: #0b5ea8;
+  text-align:start;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#contact label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#contact button {
+  background: #0b5ea8;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background: #094e8a;
+}
+.logo .dot {
+  color: var(--accent-color);
+}

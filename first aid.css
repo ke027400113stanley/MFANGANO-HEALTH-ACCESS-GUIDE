@@ -1,0 +1,106 @@
+.header {
+text-decoration: none;
+color: white;
+font-size: 16px;
+font-weight: 600;
+}
+
+.header {
+    background: #0670d6;
+    padding: 15px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background: aqua;
+line-height: 1.6;
+}
+
+
+h1{
+text-align: center;
+font-weight: 700;
+margin-top: 30px;
+}
+
+
+h1 {
+font-size: 2.5rem;
+color: #b30000;
+}
+
+
+h2 {
+font-size: 2rem;
+color: #004d99;
+}
+
+
+h3 {
+font-size: 1.7rem;
+color: red;
+text-align: start;
+}
+
+
+p {
+text-align: start;
+font-size: 1.1rem;
+margin: 10px auto;
+width: 80%;
+}
+
+
+img {
+display: block;
+max-width: 90%;
+margin: 15px auto;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+
+article {
+margin: 20px auto;
+width: 100%;
+padding: 25px;
+background: gainsboro;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+
+body > img {
+margin-bottom: 58px;
+}
+
+
+body > p {
+margin-bottom: 40px;
+}
